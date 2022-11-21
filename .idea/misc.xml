@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/boundry.xml" value="0.20609588623046876" />
+        <entry key="app/src/main/res/drawable/cardhome.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/custom_progress.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable/gradient1.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/gradient2.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/gradient3.xml" value="0.185" />
+        <entry key="app/src/main/res/drawable/homeblue.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/msgedit.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_attendance.xml" value="0.23727326324020606" />
+        <entry key="app/src/main/res/layout/activity_class.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/activity_fac_fee.xml" value="0.23179463209714568" />
+        <entry key="app/src/main/res/layout/activity_fac_upload_marks.xml" value="0.18608243530644464" />
+        <entry key="app/src/main/res/layout/activity_home_faculty.xml" value="0.24473419189453122" />
+        <entry key="app/src/main/res/layout/activity_home_student.xml" value="0.10317460317460317" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_mark_attendance.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/activity_message_fac.xml" value="0.24015197753906248" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2440677966101695" />
+        <entry key="app/src/main/res/layout/activity_stu_attendance.xml" value="0.3082191780821918" />
+        <entry key="app/src/main/res/layout/activity_stu_fee.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/activity_stu_marks.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/activity_stu_notification.xml" value="0.1337386018237082" />
+        <entry key="app/src/main/res/layout/attendancelist_layout.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/attendanceview.xml" value="0.2855575561523438" />
+        <entry key="app/src/main/res/layout/checkedtestviewlayout.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/classlayout.xml" value="0.24320652173913043" />
+        <entry key="app/src/main/res/layout/nav_header.xml" value="0.24473419189453122" />
+        <entry key="app/src/main/res/layout/notification.xml" value="0.275" />
+        <entry key="app/src/main/res/layout/stu_att.xml" value="0.27395833333333336" />
+        <entry key="app/src/main/res/layout/student_card_layout.xml" value="0.2033514492753623" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.275" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.275" />
+        <entry key="app/src/main/res/menu/stu_menu.xml" value="0.1814814814814815" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.24015197753906248" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

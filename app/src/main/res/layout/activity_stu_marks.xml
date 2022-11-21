@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient1"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".StuMarks">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        ></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_margin="20dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marks Obtained"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Marks"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            >
+            <TextView
+                android:id="@+id/lag1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:layout_weight="1"
+                android:layout_margin="20dp"></TextView>
+            <TextView
+                android:id="@+id/l1m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                ></TextView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:id="@+id/lag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hindi"
+            android:layout_weight="1"
+            android:layout_margin="20dp"></TextView>
+        <TextView
+            android:id="@+id/l2m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:id="@+id/lag3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:layout_weight="1"
+            android:layout_margin="20dp"></TextView>
+        <TextView
+            android:id="@+id/l3m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:id="@+id/lag4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Maths"
+            android:layout_weight="1"
+            android:layout_margin="20dp"></TextView>
+        <TextView
+            android:id="@+id/l4m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:id="@+id/lag5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Science"
+            android:layout_weight="1"
+            android:layout_margin="20dp"></TextView>
+        <TextView
+            android:id="@+id/l5m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:id="@+id/lag6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Social"
+            android:layout_weight="1"
+            android:layout_margin="20dp"></TextView>
+        <TextView
+            android:id="@+id/l6m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            ></TextView>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeN"
+        android:title="Home"
+        android:icon="@drawable/ic_outline_home"></item>
+    <item android:id="@+id/marAttendanceN"
+        android:title="Mark Attendance"
+        android:icon="@drawable/attendance1"></item>
+    <item android:id="@+id/uploadN"
+        android:title="Upload Marks"
+        android:icon="@drawable/marksimg"></item>
+    <item
+        android:id="@+id/feeUpdate"
+        android:title="Fee Update"
+        android:icon="@drawable/ic_baseline_currency_rupee_24"></item>
+
+</menu>

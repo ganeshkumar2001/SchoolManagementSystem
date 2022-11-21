@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FacFeeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fees Update"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Student:"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        ></TextView>
+
+    <Spinner
+        android:id="@+id/rollSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        ></Spinner>
+
+    <EditText
+        android:id="@+id/amountU"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/msgedit"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:hint="Enter amount"
+        android:padding="10dp"
+        android:layout_marginEnd="10dp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/sButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        ></Button>
+
+    <TextView
+        android:id="@+id/pfee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The pending fee is: "
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="40dp"
+        android:layout_gravity="center_horizontal"
+        ></TextView>
+    <TextView
+        android:id="@+id/ufee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The pending fee is: "
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        ></TextView>
+
+</LinearLayout>

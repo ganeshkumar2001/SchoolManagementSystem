@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/srk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/loginid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ph"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/msgedit"
+        android:hint="Enter your email"></EditText>
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/loginid"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/msgedit"
+        android:padding="10dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"></EditText>
+
+    <Spinner
+        android:id="@+id/classL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/msgedit"
+        android:layout_below="@+id/pass"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+
+        ></Spinner>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/logButton"
+        android:layout_below="@id/classL"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        ></Button>
+
+    <TextView
+        android:id="@+id/toRegText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Registered? Click here to Sign In"
+        android:textSize="15dp"
+        android:layout_below="@id/logButton"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
+
+
+</RelativeLayout>

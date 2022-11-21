@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient1"
+    tools:context=".Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:id="@+id/textRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Register Now!"
+            android:textSize="30dp"></TextView>
+
+        <EditText
+            android:id="@+id/nameReg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/textRegister"
+            android:background="@drawable/msgedit"
+            android:hint="Enter Name"
+            android:padding="10dp"
+            ></EditText>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/nameReg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/msgedit"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"></EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/phone"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/msgedit"
+            android:inputType="textPassword"
+            android:hint="Enter Password"
+            android:padding="10dp"></EditText>
+
+        <Spinner
+            android:id="@+id/classDD"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/msgedit"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/password"
+            ></Spinner>
+        <EditText
+            android:id="@+id/rollNo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/msgedit"
+            android:layout_margin="20dp"
+            android:layout_below="@id/classDD"
+            android:hint="Enter Roll No"
+            android:inputType="number"
+            ></EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submitReg"
+            android:layout_below="@id/rollNo"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            ></Button>
+
+        <TextView
+            android:id="@+id/toLogText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Registered? Sign in Here"
+            android:textSize="15dp"
+            android:layout_below="@id/submitReg"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "656749204318",
+    "firebase_url": "https://schoolmanagement-3016b-default-rtdb.firebaseio.com",
+    "project_id": "schoolmanagement-3016b",
+    "storage_bucket": "schoolmanagement-3016b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656749204318:android:4dd4ddf4204160e8bc35cf",
+        "android_client_info": {
+          "package_name": "com.example.schoolmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656749204318-rv90k3l24ejb54adahcv0ltoupv1njih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeuycuWHOSm1QjzuJZRXX5OPR-CYoLSuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656749204318-rv90k3l24ejb54adahcv0ltoupv1njih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
